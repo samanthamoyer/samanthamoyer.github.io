@@ -1,0 +1,39 @@
+import {
+  SPACE_CADET,
+  INDEPENDANCE,
+  HELIOTROPE,
+  SILVER_PINK,
+  ISABELLINE,
+} from './colors';
+import { darken, lighten } from 'polished';
+
+export const PRIMARY = SILVER_PINK;
+export const SECONDARY = INDEPENDANCE;
+export const TERTIARY = HELIOTROPE;
+export const ACCENT = ISABELLINE;
+export const DARK = SPACE_CADET;
+
+export const ON_DARK_TEXT_COLOR = HELIOTROPE;
+export const ON_LIGHT_TEXT_COLOR = SPACE_CADET;
+export const ON_LIGHT_TEXT_COLOR_SECONDARY = INDEPENDANCE;
+
+export const BG_DARK = SPACE_CADET;
+export const BG_LIGHT = ISABELLINE;
+
+export const NAV_BG = INDEPENDANCE;
+export const NAV_BRAND_COLOR = ISABELLINE;
+export const NAV_BRAND_BG_HOVER = darken(0.05, NAV_BG);
+export const NAV_TEXT_COLOR = ISABELLINE;
+
+export const FORM_BG_COLOR = SILVER_PINK;
+export const FORM_INPUT_BG_COLOR = ISABELLINE;
+export const FORM_INPUT_TEXT_COLOR = INDEPENDANCE;
+export const FORM_INPUT_HIGHLIGHT_COLOR = INDEPENDANCE;
+export const FORM_LABEL_COLOR = darken(0.1, INDEPENDANCE);
+
+export const BUTTON_BG_COLOR_PRIMARY = PRIMARY;
+export const BUTTON_FG_COLOR_PRIMARY = INDEPENDANCE;
+export const BUTTON_BG_COLOR_SECONDARY = SECONDARY;
+export const BUTTON_FG_COLOR_SECONDARY = ISABELLINE;
+export const BUTTON_BG_COLOR_TERTIARY = TERTIARY;
+export const BUTTON_FG_COLOR_TERTIARY = SPACE_CADET;
